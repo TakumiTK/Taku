@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>加入會員</title>
+    <style>
+ * {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #fff;
+}
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+h1 {
+   margin: 0; padding: 0;
+   font-size: 30px;
+}
+a {	
+   text-decoration: none;
+   color: #615e5e;
+
+}
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+small{
+  background:rgb(68, 67, 67);
+  color: rgb(248, 241, 241);;
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+#page_top{/*top page*/
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0aa';
+  font-size: 60px;
+  color: #afadad;
+}
+
+
+ 
+input{/*huiyuan*/
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+ 
+  input[type="submit"]{
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #45cc82;
+    border-bottom: solid 5px #3cb371;
+  }
+ 
+  .f{
+    width: 500px;
+    margin: 25px 50px;
+    margin-top: 6%;
+    background-color: white;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .f_title{
+    color: white;
+    background-color: #3cb371;
+    padding: 10px 30px;
+  }
+ 
+  .f_content{
+    margin: 25px 50px;
+  }
+ 
+  .f_list{
+    margin-bottom: 2em;
+  }
+ 
+      </style>
+<body>
+  <header>
+    <h1>
+        <a href="期末報告.html">LOGO</a>
+    </h1>
+    <nav class="pc-nav">
+        <ul>
+            <li><a href="期末報告.html">首頁</a></li>
+            <li><a href="商品.html">商品</a></li>
+            <li><a href="Q&A.html">Q&A</a></li>
+            <li><a href="關於我們.html">關於我們</a></li>
+            <li><a href="登入.html">登入 登出</a></li>
+        </ul>
+    </nav>
+  
+</header>
+<main>
+    <div class="f">
+        <div class="f_title">註冊</div>
+        <div class="f_content">
+          <form>
+            <div class="f_list">
+              <label style="margin-left: 10%;">名字</label>
+              <input name="ID" type="text" class="">
+ 
+              <label style="margin-left: 10%;">信箱</label>
+              <input name="mail" type="email" class="">
+ 
+              <label style="margin-left: 10%;">密碼</label>
+              <input name="password" type="password" class="">
+ 
+              <label style="margin-left: 10%;">手機</label>
+              <input name="phone" type="phonenumber" class="">
+ 
+              <input type="submit" name="" value="註冊">
+            
+            </div>
+          </form>
+        </div>
+      </div>
+   
+</main>
+
+    
+  
+</body>
+</html>
